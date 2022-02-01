@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+.nav1{
+    width: 100%;
+    height: 50px;
+    color: white;
+   background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 i{
+    margin: 0 6px;
+}
+
+.nav1 i:hover{
+    color: rgb(191, 24, 224);
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background: rgb(170, 52, 170);
+    margin-left: 60px
+}
+
+.nav1 p:hover{
+    color: aqua;
+}
+
+.nav2 img{
+    width: 100px;
+    margin-left: 300px;
+}
+
+
+
+.nav2{
+    width: 100%;
+    height: 100px;
+    background: black;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+     text-decoration: none;
+     padding: 10px 50px;
+     color: white;
+}
+
+.menu a:hover{
+    color: yellow;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.7)80%,rgb(29, 55, 66)),url('sport.jpg');
+    background-size: 100% 100%;
+}
+
+.h-text{
+    max-width: 600px;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.h-text h1{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h-text span{
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aqua;
+}
+
+.h-text p{
+    margin: 40px 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.brand{
+    padding-top: 20px;
+    background:linear-gradient(rgb(29, 55, 66),rgba(0, 0, 0, 0.7)85%);
+    height: 750px;
+    
+}
+
+.brand h1{
+     font-size:2em ;
+     font-family: cursive;
+     border: 2px solid blueviolet;
+     display: inline-block;
+     margin-left: 545px;
+     margin-top: 25px;
+     padding: 5px;
+     text-align: center;
+}
+
+
+.brand ul{
+    height: 300px;
+    display: flex;
+    list-style: none;
+    float:center;
+    margin: 20px 0;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+
+
+
+.brand img{
+    height: 200px;
+    width: 300px;
+    border: 4px solid rgb(139, 218, 21);
+    padding: 20px 20px;
+}
+
+
+
+
